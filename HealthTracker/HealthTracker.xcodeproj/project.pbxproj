@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A4E6BFB20FD0F5100E9593C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E6BFA20FD0F5100E9593C /* logo.png */; };
+		6A4E6BFD20FD3DC700E9593C /* libtclsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4E6BFC20FD3DC700E9593C /* libtclsqlite3.dylib */; };
 		6A5A328C20FCB8E4007F3A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A328B20FCB8E4007F3A32 /* AppDelegate.m */; };
 		6A5A328F20FCB8E4007F3A32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A328E20FCB8E4007F3A32 /* ViewController.m */; };
 		6A5A329220FCB8E4007F3A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A329020FCB8E4007F3A32 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		6A4E6BFA20FD0F5100E9593C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		6A4E6BFC20FD3DC700E9593C /* libtclsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtclsqlite3.dylib; path = ../../../../../../System/Library/Tcl/sqlite3/libtclsqlite3.dylib; sourceTree = "<group>"; };
 		6A5A328720FCB8E4007F3A32 /* HealthTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5A328A20FCB8E4007F3A32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A5A328B20FCB8E4007F3A32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4E6BFD20FD3DC700E9593C /* libtclsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				6A4E6BFA20FD0F5100E9593C /* logo.png */,
+				6A4E6BFC20FD3DC700E9593C /* libtclsqlite3.dylib */,
 				6A5A328920FCB8E4007F3A32 /* HealthTracker */,
 				6A5A328820FCB8E4007F3A32 /* Products */,
 			);
@@ -298,6 +302,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "github.com-dvideo.HealthTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,6 +322,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "github.com-dvideo.HealthTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
