@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3E190120FDE66A00BB5313 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3E18FF20FDE66900BB5313 /* libsqlite3.tbd */; };
+		6A3E190220FDE66A00BB5313 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3E190020FDE66900BB5313 /* libsqlite3.0.tbd */; };
+		6A3E190520FDEF6100BB5313 /* CalculationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E190420FDEF6100BB5313 /* CalculationViewController.m */; };
+		6A3E190820FDFE5E00BB5313 /* SIgnUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E190720FDFE5E00BB5313 /* SIgnUpViewController.m */; };
 		6A4E6BFB20FD0F5100E9593C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E6BFA20FD0F5100E9593C /* logo.png */; };
 		6A4E6BFD20FD3DC700E9593C /* libtclsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4E6BFC20FD3DC700E9593C /* libtclsqlite3.dylib */; };
 		6A5A328C20FCB8E4007F3A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A328B20FCB8E4007F3A32 /* AppDelegate.m */; };
@@ -16,9 +20,17 @@
 		6A5A329720FCB8EE007F3A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A329620FCB8EE007F3A32 /* Assets.xcassets */; };
 		6A5A329A20FCB8EE007F3A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A329820FCB8EE007F3A32 /* LaunchScreen.storyboard */; };
 		6A5A329D20FCB8EE007F3A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A329C20FCB8EE007F3A32 /* main.m */; };
+		E1FD88C2CBE97E36C319F3EE /* libPods-HealthTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE174657C2EFC2E2AC006ADB /* libPods-HealthTracker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C63004D864440258EE4C4BD /* Pods-HealthTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthTracker/Pods-HealthTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		6A3E18FF20FDE66900BB5313 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6A3E190020FDE66900BB5313 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6A3E190320FDEF6100BB5313 /* CalculationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculationViewController.h; sourceTree = "<group>"; };
+		6A3E190420FDEF6100BB5313 /* CalculationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculationViewController.m; sourceTree = "<group>"; };
+		6A3E190620FDFE5E00BB5313 /* SIgnUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIgnUpViewController.h; sourceTree = "<group>"; };
+		6A3E190720FDFE5E00BB5313 /* SIgnUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIgnUpViewController.m; sourceTree = "<group>"; };
 		6A4E6BFA20FD0F5100E9593C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		6A4E6BFC20FD3DC700E9593C /* libtclsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtclsqlite3.dylib; path = ../../../../../../System/Library/Tcl/sqlite3/libtclsqlite3.dylib; sourceTree = "<group>"; };
 		6A5A328720FCB8E4007F3A32 /* HealthTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +44,8 @@
 		6A5A329920FCB8EE007F3A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A5A329B20FCB8EE007F3A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A5A329C20FCB8EE007F3A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE174657C2EFC2E2AC006ADB /* libPods-HealthTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63F2F44D49C8DDADB6128C4 /* Pods-HealthTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthTracker/Pods-HealthTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3E190120FDE66A00BB5313 /* libsqlite3.tbd in Frameworks */,
+				6A3E190220FDE66A00BB5313 /* libsqlite3.0.tbd in Frameworks */,
 				6A4E6BFD20FD3DC700E9593C /* libtclsqlite3.dylib in Frameworks */,
+				E1FD88C2CBE97E36C319F3EE /* libPods-HealthTracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +70,8 @@
 				6A4E6BFC20FD3DC700E9593C /* libtclsqlite3.dylib */,
 				6A5A328920FCB8E4007F3A32 /* HealthTracker */,
 				6A5A328820FCB8E4007F3A32 /* Products */,
+				75A6575ADB5CE3772AFC708B /* Pods */,
+				857BE4BB7F2CA05BE5710EB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,8 +88,12 @@
 			children = (
 				6A5A328A20FCB8E4007F3A32 /* AppDelegate.h */,
 				6A5A328B20FCB8E4007F3A32 /* AppDelegate.m */,
+				6A3E190320FDEF6100BB5313 /* CalculationViewController.h */,
+				6A3E190420FDEF6100BB5313 /* CalculationViewController.m */,
 				6A5A328D20FCB8E4007F3A32 /* ViewController.h */,
 				6A5A328E20FCB8E4007F3A32 /* ViewController.m */,
+				6A3E190620FDFE5E00BB5313 /* SIgnUpViewController.h */,
+				6A3E190720FDFE5E00BB5313 /* SIgnUpViewController.m */,
 				6A5A329020FCB8E4007F3A32 /* Main.storyboard */,
 				6A5A329620FCB8EE007F3A32 /* Assets.xcassets */,
 				6A5A329820FCB8EE007F3A32 /* LaunchScreen.storyboard */,
@@ -81,6 +104,25 @@
 			path = HealthTracker;
 			sourceTree = "<group>";
 		};
+		75A6575ADB5CE3772AFC708B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C63004D864440258EE4C4BD /* Pods-HealthTracker.debug.xcconfig */,
+				E63F2F44D49C8DDADB6128C4 /* Pods-HealthTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		857BE4BB7F2CA05BE5710EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A3E190020FDE66900BB5313 /* libsqlite3.0.tbd */,
+				6A3E18FF20FDE66900BB5313 /* libsqlite3.tbd */,
+				AE174657C2EFC2E2AC006ADB /* libPods-HealthTracker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,6 +130,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A5A32A020FCB8EE007F3A32 /* Build configuration list for PBXNativeTarget "HealthTracker" */;
 			buildPhases = (
+				1442A5D41255E99DA853C925 /* [CP] Check Pods Manifest.lock */,
 				6A5A328320FCB8E4007F3A32 /* Sources */,
 				6A5A328420FCB8E4007F3A32 /* Frameworks */,
 				6A5A328520FCB8E4007F3A32 /* Resources */,
@@ -147,13 +190,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1442A5D41255E99DA853C925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A5A328320FCB8E4007F3A32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3E190820FDFE5E00BB5313 /* SIgnUpViewController.m in Sources */,
 				6A5A328F20FCB8E4007F3A32 /* ViewController.m in Sources */,
 				6A5A328C20FCB8E4007F3A32 /* AppDelegate.m in Sources */,
+				6A3E190520FDEF6100BB5313 /* CalculationViewController.m in Sources */,
 				6A5A329D20FCB8EE007F3A32 /* main.m in Sources */,
 				6A5A329520FCB8E4007F3A32 /* HealthTracker.xcdatamodeld in Sources */,
 			);
@@ -293,11 +359,13 @@
 		};
 		6A5A32A120FCB8EE007F3A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C63004D864440258EE4C4BD /* Pods-HealthTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64H7YX7WM6;
 				INFOPLIST_FILE = HealthTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,11 +382,13 @@
 		};
 		6A5A32A220FCB8EE007F3A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63F2F44D49C8DDADB6128C4 /* Pods-HealthTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64H7YX7WM6;
 				INFOPLIST_FILE = HealthTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
