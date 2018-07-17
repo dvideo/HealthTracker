@@ -9,11 +9,19 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController{
+    
+    
+    
+    
     IBOutlet UITextField *username;
     IBOutlet UITextField *password;
     IBOutlet UIButton *login;
     IBOutlet UIButton *signup;
     IBOutlet UIButton *skipsignup;
+    
+    
+    
+    
 }
 @property (strong, nonatomic) IBOutlet UITextField *username;
 @property (strong, nonatomic) IBOutlet UITextField *password;

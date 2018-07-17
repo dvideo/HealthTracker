@@ -10,6 +10,7 @@
 
 @interface CalculationViewController : UIViewController{
     
+    IBOutlet UITextField *insulin;
     IBOutlet UIButton *calculate;
     IBOutlet UITextField *slowacting;
     IBOutlet UITextField *fadinner;
@@ -21,5 +22,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *fabreakfast;
 @property (strong, nonatomic) IBOutlet UITextField *falunch;
 @property (strong, nonatomic) IBOutlet UITextField *fadinner;
+@property (strong, nonatomic) IBOutlet UITextField *insulin;
 
 @end
