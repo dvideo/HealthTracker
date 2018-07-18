@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FAI-PG-Zi1">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Health Track" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PA-qr-FX5">
-                                <rect key="frame" x="84" y="4" width="225" height="65"/>
+                                <rect key="frame" x="84" y="48" width="225" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="uaj-tJ-AdB"/>
                                 </constraints>
@@ -54,13 +54,13 @@
                                 <state key="normal" title="Login"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z4R-rT-XSB" userLabel="logo">
-                                <rect key="frame" x="116" y="48" width="142" height="158"/>
+                                <rect key="frame" x="116" y="92" width="142" height="114"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3O-vX-3j7">
                                 <rect key="frame" x="146" y="473" width="82" height="30"/>
                                 <state key="normal" title="Skip Signup"/>
                                 <connections>
-                                    <segue destination="p6h-K9-3Yb" kind="presentation" id="6J4-61-u8N"/>
+                                    <segue destination="p6h-K9-3Yb" kind="show" id="QwL-Zg-NBt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DT-1S-f73">
@@ -70,7 +70,7 @@
                                 </constraints>
                                 <state key="normal" title="SIgn Up"/>
                                 <connections>
-                                    <segue destination="ete-UW-ApT" kind="presentation" id="LWC-QS-c4m"/>
+                                    <segue destination="ete-UW-ApT" kind="show" id="Il1-xU-sMq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -111,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
         <!--Ign Up View Controller-->
         <scene sceneID="fMc-Au-7LR">
@@ -171,10 +171,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="bO9-h2-ges">
-                                <rect key="frame" x="120" y="0.0" width="135" height="104"/>
+                                <rect key="frame" x="120" y="0.0" width="135" height="148"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fast Acting Insulin (Breakfast)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WaZ-5z-J4b">
-                                <rect key="frame" x="83" y="181" width="209" height="30"/>
+                                <rect key="frame" x="83" y="225" width="209" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="obw-Nk-OJC"/>
                                 </constraints>
@@ -183,7 +183,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fast Acting Insulin (Lunch)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JN5-xG-R4z">
-                                <rect key="frame" x="83" y="219" width="209" height="30"/>
+                                <rect key="frame" x="83" y="263" width="209" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Dcu-PA-fmP"/>
                                 </constraints>
@@ -192,19 +192,19 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fast Acting Insulin (Dinner)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m5P-4w-Yg0">
-                                <rect key="frame" x="83" y="257" width="209" height="30"/>
+                                <rect key="frame" x="83" y="301" width="209" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Slow Acting Insulin " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ow1-Mb-G2W">
-                                <rect key="frame" x="83" y="295" width="209" height="30"/>
+                                <rect key="frame" x="83" y="339" width="209" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input the following values:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAr-TS-kKv">
-                                <rect key="frame" x="88" y="152" width="199" height="21"/>
+                                <rect key="frame" x="88" y="196" width="199" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="6GF-8R-Kli"/>
                                 </constraints>
@@ -220,7 +220,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin Calculation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bl3-gf-G7r">
-                                <rect key="frame" x="90" y="92" width="194" height="63"/>
+                                <rect key="frame" x="90" y="136" width="194" height="63"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="Mob-Pf-32m"/>
                                 </constraints>
@@ -228,7 +228,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2EC-oR-qfG">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2EC-oR-qfG">
                                 <rect key="frame" x="86" y="529" width="201" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -278,7 +278,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PqO-BT-6W8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840.79999999999995" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1780" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zez-90-neU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FAI-PG-Zi1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4m9-eS-rqm">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="drQ-jf-j5z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="snY-Rf-d5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
     <resources>
